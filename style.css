@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aside{
+    background-color: #FFFFFF;
+    border-right: 1px solid grey;
+}
+/* ============================== */
+.content{
+    background-color: #F9FAFB;
+}
+/* .container{
+    padding: 0 110px;
+    margin-top: 24px;
+} */
+.container-content{
+    padding: 16px;
+    border: 1px solid #e5eaf0;
+    border-radius: 0.25rem;
+}
+.description{
+    /* =========== */
+    padding: 12px;
+}
+.description .desc-title h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #0b0f32;
+}
+.description .desc-time{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    color: #8d99a7;
+}
+.description .short-desc{
+    font-size: 18px;
+    color: #454f59;
+}
+.description #desc-box{
+    margin-top: 16px;
+    padding: 16px;
+}
+.description #desc-box .box-title h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0b0f32;
+}
+.description #desc-box #box-list{
+    color: #454F59;
+}
+.description .desc-box1{
+    border: 1px solid #bba9fb;
+    border-radius: 0.25rem;
+    background-color: #f3f3f9;
+}
+.description .desc-box2{
+    border: 1px solid #ffda4d;
+    border-radius: 0.25rem;
+    background-color: #f9f8f3;
+}
+
+
+/* ============================== */
+.require{
+    /* =========== */
+    padding: 16px;
+}
+.require .require-image img{
+    width: 100%;
+    height: 160px;
+    border-radius: 0.25rem;
+    margin-bottom: 16px;
+}
+.require .require-title h5, .require .progres h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0b0f32;
+}
+.require .apply-button button{
+    padding: 12px;
+    width: 100%;
+    background-color: #f6f7fb;
+    border: 1px solid #e5eaf0;
+    font-size: 15px;
+    font-weight: 500;  
+}
+/* ======================================== */
+.product a{
+    text-decoration: none;
+    color: #0b0f32;
+}
+.product a:hover .product-content{
+    border: 1px solid #c5c8cc;
+}
+.product-title h2{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+.product-item{
+    padding: 12px;
+}
+.product-item .product-content{
+    background-color: #FFFFFF;
+    border: 1px solid #e5eaf0;
+    border-radius: 0.25rem;
+    padding: 16px;
+}
+.product-content .product-image img{
+    width: 100%;
+    border-radius: 0.25rem;
+}
+.product-content .product-content-title{
+    padding-top: 16px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+.product-content .product-desc{
+    color: #737f8b;
+    line-height: 175%;
+}
+/* ======================================= */
+.update{
+    margin-top: 20px;
+}
+.update-title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.update-item{
+    padding: 8px;
+}
+.update-item a{
+    text-decoration: none;
+    color: #0b0f32;
+}
+.update-item a:hover .box-card{
+    border: 1px solid #c2c6ca;
+}
+.box-card{
+    padding: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #e5eaf0;
+    border-radius: 0.25rem;
+}.box-card .card-logo{
+    float: left;
+    padding-right: 1rem;
+}
+.box-card .card-logo img{
+    width: 60px;
+}
+.box-card .card-title{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.box-card .card-desc{
+    color: #737f8b;
+}
