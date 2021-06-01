@@ -82,6 +82,23 @@
     font-weight: 500;
     color: #0b0f32;
 }
+.require .progres p{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
+}
+.require .progres .progres-level{
+    display: flex;
+    margin-bottom: 20px;
+}
+.require .progres .progres-level .progres-level-item{
+    background-color: #e5eaf0;
+    height: 8px;
+    width: 40px;
+    margin: 0 4px 0 0 ;
+    border-radius: 0.125rem;
+
+}
 .require .apply-button button{
     padding: 12px;
     width: 100%;
@@ -126,6 +143,31 @@
 .product-content .product-desc{
     color: #737f8b;
     line-height: 175%;
+    margin-bottom: 1rem;
+}
+.product-content .product-level{
+    padding: 12px;
+    background-color: #f6f7fb;
+    border-radius: 0.25rem;
+}
+.product-content .product-level .product-level-name p{
+    color: #737f8b;
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 8px;
+}
+.product-content .product-level .product-level-main{
+    display: flex;
+}
+.product-content .product-level .product-level-item{
+    background-color: #e5eaf0;
+    width: 51px;
+    height: 6px;
+    border-radius: 0.125rem;
+    margin: 0 4px 0 0;
+}
+.product-content .product-level .product-level-item:first-child{
+    background-color: #bba9fb;
 }
 /* ======================================= */
 .update{
