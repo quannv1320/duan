@@ -170,21 +170,21 @@
     background-color: #bba9fb;
 }
 /* ======================================= */
-.update{
+.social-footer{
     margin-top: 20px;
 }
-.update-title h2{
+.social-title h2{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
-.update-item{
+.social-item{
     padding: 8px;
 }
-.update-item a{
+.social-item a{
     text-decoration: none;
     color: #0b0f32;
 }
-.update-item a:hover .box-card{
+.social-item a:hover .box-card{
     border: 1px solid #c2c6ca;
 }
 .box-card{
